@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<form >  <!-- Form to submit bidding amount starts here -->
+        <input type="checkbox" id="sccb" name="science" value="science">
+<script type="text/javascript">
+    $(document).ready(function(){
+    $('#sccb').click(function(){
+    if (this.checked) {
+    $('#cns').removeAttr("disabled");
+    }
+    else {
+    $("#cns").attr("disabled", true);
+    }
+    });
+    });
+</script>
+</form>     <!-- Form ends here -->
+</head>
+</html>
+
